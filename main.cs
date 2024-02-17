@@ -22,7 +22,7 @@ class Program
           }
           else
         {
-          Console.WriteLine($"Invalid input. Please enter a valid value.");
+          Console.WriteLine($"Invalid input. Please enter a valid decimal value.");
         }
      }
 
