@@ -19,8 +19,12 @@ class Program
             {
                 Console.WriteLine($"Invalid Denomination: {amount}.");
             }
+          }
+          else
+        {
+          Console.WriteLine($"Invalid input. Please enter a valid decimal number.");
         }
-    }
+     }
 
     static string aP(decimal amount)
     {
